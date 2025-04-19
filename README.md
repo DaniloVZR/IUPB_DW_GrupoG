@@ -1,9 +1,6 @@
-Curso de Desarrollo Web
+Curso de desarrollo Web con nuevas tecnologías
 
-Grupo A:
+Grupo G:
 
 - Angelo Alexander Arango Graciano
 - Joimar Danilo Urrego David
-- Sebastian Puerta Mejía
-- Paulina Cardona Cardona
-- Luis Miguel Sosa Bohorquez
