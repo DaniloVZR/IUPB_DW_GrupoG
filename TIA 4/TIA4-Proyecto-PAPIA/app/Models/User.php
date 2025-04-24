@@ -23,8 +23,6 @@ class User extends Authenticatable
         'password',
     ];
 
-    // Comentario para probar los cambios en los archivos
-
     /**
      * The attributes that should be hidden for serialization.
      *
