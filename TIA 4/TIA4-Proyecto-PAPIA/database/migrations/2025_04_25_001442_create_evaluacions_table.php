@@ -11,9 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('tipo__proyectos', function (Blueprint $table) {
-            $table->id('COD_tipo_proyecto')->primary();
-            $table->string('tipo_proyecto', 10);
+        Schema::create('evaluacions', function (Blueprint $table) {
+            $table->id('COD_evaluacion')->primary();
+            $table->text('descripcion_evaluacion');
+            $table->integer('ponderacion_evaluacion');
             $table->timestamps();
         });
     }
@@ -23,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('tipo__proyectos');
+        Schema::dropIfExists('evaluacions');
     }
 };
