@@ -24,7 +24,7 @@ return new class extends Migration
                   
             $table->foreign('COD_asignatura')
                   ->references('COD_asignatura')
-                  ->on('asignaturas') // Nombre exacto de tu tabla
+                  ->on('asignaturas') // Nombre exacto de tu tabla  
                   ->onDelete('cascade');
                   
             // Clave primaria compuesta
